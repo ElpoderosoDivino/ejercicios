@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <!-- fila 1 -->
+    <div class="row">
+        <!-- aqui en slider -->
+        <div class="col-12 col-md-12"> 
+
+        </div>
+    </div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/la.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="img/chicago.jpg" alt="Chicago">
+            </div>
+            <div class="carousel-item">
+            <img src="img/ny.jpg" alt="New York">
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <!-- fila 2 -->
+    <div class="row">
+      <!-- aqui en menu -->
+      <div class="col-12 col-md-12" >
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #a0ceef;">
+            <a class="navbar-brand" href="index.html">ULEAM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="docentes.html">Docentes <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="estudiantes.html">Estudiantes</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Secretaría
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="notas.html">Notas</a>
+                    <a class="dropdown-item" href="actas.html">Actas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="informes.html">Informes</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Administracion
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="ingresos.html">Ingresos</a>
+                      <a class="dropdown-item" href="modificaciones.html">Modificaciones </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="reportes.html">Reportes</a>
+                    </div>
+                </li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- fila 3 -->
+    <div class="row">
+        <!-- aqui texto 1 -->
+        <div class="col-12 col-md-4">
+        <p class="text-justify">
+          Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de 
+          sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros,
+          menús de navegación y otros elementos de diseño basado en HTML y CSS, así como extensiones de JavaScript adicionales. 
+          A diferencia de muchos frameworks web, solo se ocupa del desarrollo front-end.</p>
+        </div>
+        <!-- aqui imagen -->
+        <div class="col-12 col-md-4">
+          <img src="img/la.jpg" class="rounded img-fluid" alt="imagen ramdom">
+        </div>
+        
+        <!-- aqui texto 2 -->
+        <div class="col-12 col-md-4">
+          <p class="text-justify">
+            Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de 
+            sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, 
+            menús de navegación y otros elementos de diseño basado en HTML y CSS, así como extensiones de JavaScript adicionales. 
+            A diferencia de muchos frameworks web, solo se ocupa del desarrollo front-end.
+          </p>
+        </div>
+    </div>
+    <!-- fila 4 -->
+    <div class="row">
+        <!-- aqui video -->
+        <div class="col-12 col-md-6">
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UpJWxKmzT-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- aqui texto 3 -->
+        <div class="col-12 col-md-6">
+          <p class="text-justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae ipsa, molestias ipsam, possimus dolore error in dicta tenetur, ullam eligendi cupiditate totam beatae dolorem cum minus autem voluptatem iste.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id architecto nostrum corporis quas nesciunt possimus modi, debitis animi deserunt. Deleniti accusamus ab libero necessitatibus blanditiis illo eos nemo unde?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae ipsa, molestias ipsam, possimus dolore error in dicta tenetur, ullam eligendi cupiditate totam beatae dolorem cum minus autem voluptatem iste.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id architecto nostrum corporis quas nesciunt possimus modi, debitis animi deserunt. Deleniti accusamus ab libero necessitatibus blanditiis illo eos nemo unde?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae ipsa, molestias ipsam, possimus dolore error in dicta tenetur, ullam eligendi cupiditate totam beatae dolorem cum minus autem voluptatem iste.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id architecto nostrum corporis quas nesciunt possimus modi, debitis animi deserunt. Deleniti accusamus ab libero necessitatibus blanditiis illo eos nemo unde?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae ipsa, molestias ipsam, possimus dolore error in dicta tenetur, ullam eligendi cupiditate totam beatae dolorem cum minus autem voluptatem iste.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id architecto nostrum corporis quas nesciunt possimus modi, debitis animi deserunt. Deleniti accusamus ab libero necessitatibus blanditiis illo eos nemo unde?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae ipsa, molestias ipsam, possimus dolore error in dicta tenetur, ullam eligendi cupiditate totam beatae dolorem cum minus autem voluptatem iste.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id architecto nostrum corporis quas nesciunt possimus modi, debitis animi deserunt. Deleniti accusamus ab libero necessitatibus blanditiis illo eos nemo unde?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+        </div>
+    </div>
+
+    <!-- fila 5 -->
+    <div class="row">
+        <!-- aqui espacio -->
+        <div class="col-md-3">
+
+        </div>
+        <!-- aqui tabla -->
+        <div class="col-12 col-md-6">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- aqui espacio -->
+        <div class="col-md-3">
+
+        </div>
+    </div>
+
+</div> 
+</body>
+</html>
